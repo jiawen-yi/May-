@@ -1,0 +1,34 @@
+# Desk parameters for may_trade. Principles cannot be loosened.
+# R:R stays at 2.0. Risk, concentration, chain, and veto knobs may only get stricter.
+# Copy to config.yaml and pass --config config.yaml. Omitting --config uses these ceilings.
+
+rr_min: 2.0
+per_trade_hard_cap_pct: 0.02
+day_loss_halt_pct: 0.015
+stack_risk_max_pct: 0.03
+name_concentration_max_pct: 0.40
+chain_max_positions: 2
+consecutive_stops_to_pause: 2
+day_down_veto_pct: 0.03
+ma10_chase_pct: 0.08
+rsi_chase: 80
+high_52w_proximity_pct: 0.03
+extended_spread_max_pct: 0.005
+round_trip_cost_fraction: 0.20
+loser_risk_cap_pct: 0.01
+loser_ma10_max_extension: 0.03
+# Half of the retired fixed-dollar sleeve. Still the written rebuy notional alternative.
+wash_rebuy_notional_cap: 150
+soft_tape_size_multiplier: 0.75
+extended_size_multiplier: 0.5
+max_intraday_per_day: 2
+pdt_equity: 25000
+pdt_day_trades: 3
+min_sweep_dollars: 1.0
+long_name_cap_pct: 0.15
+long_sector_cap_pct: 0.35
+intraday_atr_fraction: 0.5
+duration_risk_caps:
+  intraday: 0.01
+  swing_1_2: 0.015
+  swing_3_5: 0.02

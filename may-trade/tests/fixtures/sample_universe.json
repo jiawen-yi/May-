@@ -1,0 +1,113 @@
+{
+  "as_of": "2026-10-23T10:30:00-04:00",
+  "unlock": {"explicit": false},
+  "account": {
+    "equity": 100000,
+    "cash": 40000,
+    "day_pnl": 0,
+    "positions": [
+      {
+        "symbol": "MU",
+        "shares": 10,
+        "cost": 50,
+        "stop": 49,
+        "target": 60,
+        "chain": "memory"
+      },
+      {
+        "symbol": "LRCX",
+        "shares": 10,
+        "cost": 80,
+        "stop": 78,
+        "target": 96,
+        "chain": "memory"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "plan": {
+        "symbol": "SMCI",
+        "side": "buy",
+        "entry": 100,
+        "stop": 95,
+        "structural_stop": 95,
+        "target": 112,
+        "shares": 20,
+        "thesis": "Leader on the day, but the print is a washout and the gate should refuse the dip.",
+        "stop_basis": "prior session low",
+        "chain": "ai_compute",
+        "instrument": "common_stock",
+        "duration": "swing_1_2"
+      },
+      "quote": {
+        "last": 96,
+        "day_change_pct": -0.04,
+        "ma10": 99,
+        "rsi6": 42,
+        "high_52w": 150,
+        "spread_pct": 0.0004,
+        "sector_lagging": false,
+        "sector_score": 5,
+        "up_structure": true,
+        "round_trip_cost": 1
+      }
+    },
+    {
+      "plan": {
+        "symbol": "ANET",
+        "side": "buy",
+        "entry": 100,
+        "stop": 95,
+        "structural_stop": 95,
+        "target": 112,
+        "shares": 20,
+        "thesis": "Lagging group, but the shelf and the stop still clear the same gate.",
+        "stop_basis": "swing low under the last platform",
+        "chain": "optics",
+        "instrument": "common_stock",
+        "duration": "swing_1_2"
+      },
+      "quote": {
+        "last": 100.2,
+        "day_change_pct": 0.004,
+        "ma10": 99,
+        "rsi6": 58,
+        "high_52w": 150,
+        "spread_pct": 0.0004,
+        "sector_lagging": true,
+        "sector_score": 0.2,
+        "up_structure": true,
+        "round_trip_cost": 1
+      }
+    },
+    {
+      "plan": {
+        "symbol": "AMD",
+        "side": "buy",
+        "entry": 100,
+        "stop": 95,
+        "structural_stop": 95,
+        "target": 112,
+        "shares": 10,
+        "thesis": "Same chain is already full, so this name is stood down before the hunt.",
+        "stop_basis": "swing low",
+        "chain": "memory",
+        "instrument": "common_stock",
+        "duration": "swing_1_2"
+      },
+      "quote": {
+        "last": 100,
+        "day_change_pct": 0.01,
+        "ma10": 99,
+        "rsi6": 55,
+        "high_52w": 160,
+        "spread_pct": 0.0003,
+        "sector_lagging": false,
+        "sector_score": 3,
+        "up_structure": true,
+        "round_trip_cost": 1
+      }
+    }
+  ]
+}

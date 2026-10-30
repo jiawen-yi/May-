@@ -1,0 +1,52 @@
+{
+  "as_of": "2026-10-23T10:30:00-04:00",
+  "unlock": {"explicit": false},
+  "plan": {
+    "symbol": "ANET",
+    "side": "buy",
+    "entry": 100,
+    "stop": 95,
+    "structural_stop": 95,
+    "target": 112,
+    "shares": 50,
+    "thesis": "Pullback is holding the recent shelf; the stop is the swing low under that shelf.",
+    "stop_basis": "swing low under the last platform",
+    "chain": "optics",
+    "instrument": "common_stock",
+    "duration": "swing_1_2"
+  },
+  "quote": {
+    "last": 100.2,
+    "day_change_pct": 0.004,
+    "session": "regular",
+    "ma10": 99,
+    "rsi6": 58,
+    "high_52w": 150,
+    "spread_pct": 0.0004,
+    "has_new_catalyst": false,
+    "benchmark_break_same_direction": false,
+    "sector": "networking",
+    "sector_lagging": false,
+    "sector_score": 1.0,
+    "soft_tape": false,
+    "high_vol": false,
+    "up_structure": true,
+    "event_in_hold_window": false,
+    "round_trip_cost": 2
+  },
+  "account": {
+    "equity": 100000,
+    "cash": 25000,
+    "day_pnl": 0,
+    "consecutive_stop_losses": 0,
+    "pause_new_entries": false,
+    "hard_pause": false,
+    "day_trades_rolling_5": 0,
+    "intraday_opens_today": 0,
+    "realized_loss_symbols_ytd": [],
+    "stopped_today": [],
+    "prior_sleeve_shares": {},
+    "mag7_approved": [],
+    "positions": []
+  }
+}

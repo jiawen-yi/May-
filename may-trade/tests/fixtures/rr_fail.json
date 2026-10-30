@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-10-23T10:30:00-04:00",
+  "unlock": {"explicit": false},
+  "plan": {
+    "symbol": "ANET",
+    "side": "buy",
+    "entry": 100,
+    "stop": 90,
+    "structural_stop": 90,
+    "target": 105,
+    "shares": 10,
+    "thesis": "Shelf is intact, but the target does not pay for the stop.",
+    "stop_basis": "swing low under the last platform",
+    "chain": "optics",
+    "instrument": "common_stock",
+    "duration": "swing_1_2"
+  },
+  "quote": {
+    "last": 100.2,
+    "day_change_pct": 0.004,
+    "session": "regular",
+    "ma10": 99,
+    "rsi6": 58,
+    "high_52w": 150,
+    "spread_pct": 0.0004,
+    "has_new_catalyst": false,
+    "benchmark_break_same_direction": false,
+    "sector_lagging": false,
+    "soft_tape": false,
+    "high_vol": false,
+    "up_structure": true,
+    "round_trip_cost": 1
+  },
+  "account": {
+    "equity": 100000,
+    "cash": 25000,
+    "day_pnl": 0,
+    "positions": []
+  }
+}
